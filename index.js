@@ -12,11 +12,11 @@ function rollDice() {
 
     // set the dice images based on the roll
     die1Image = document.querySelectorAll("img")[0];
-    die1Name = "images/dice" + die1 + ".png";
+    die1Name = "./imagesLab5/dice" + die1 + ".png";
     die1Image.setAttribute("src", die1Name);
 
     die2Image = document.querySelectorAll("img")[1];
-    die2Name = "images/dice" + die2 + ".png";
+    die2Name = "./imagesLab5/dice" + die2 + ".png";
     die2Image.setAttribute("src", die2Name);
 }
 
